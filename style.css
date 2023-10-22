@@ -113,6 +113,10 @@ header  ul  li  a.active {
         background-color: var(--clr-dark-gray);
         margin: 6px 0;
     }
+
+    .rotate90 {
+        transform: rotate(90deg);
+    }
     
     .nav-bar {
         position: absolute;
@@ -147,14 +151,3 @@ header  ul  li  a.active {
         margin-bottom: 10px;
     }
 }
-/* header ul li a:hover {
-    text-decoration: none;
-    color: var(--clr-white);
-    display: block;
-}
-
-header ul li a:visted, header ul li a:active {
-    text-decoration: none;
-    color: var(--clr-dark-gray);
-    display: block;
-} */
